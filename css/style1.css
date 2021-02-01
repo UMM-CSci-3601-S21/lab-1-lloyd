@@ -46,12 +46,45 @@ h2 {
   max-width: 48em;
 }
 
+.local a:link {
+  color: red
+}
+
+.local a:visited {
+  color: red
+}
+
+.cloud a:link {
+  color: blue;
+}
+
+.cloud a:visited {
+  color: blue;
+}
+
+.version-control {
+  font-family: "Roboto", sans-serif
+}
+
+.ide {
+  font-family: "Carter One", serif
+}
+
+.testing {
+  font-family: "Merriweather", serif
+}
+
 #courses {
   background-color: #ffde7a;
   font-family: "Marcellus", serif;
 }
 
 #pslo {
+  background-color: #d5d6d2;
+  font-family: "Marcellus", serif;
+}
+
+#tools {
   background-color: #d5d6d2;
   font-family: "Marcellus", serif;
 }
