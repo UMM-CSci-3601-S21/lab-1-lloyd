@@ -62,6 +62,18 @@ h2 {
   color: blue;
 }
 
+.version-control {
+  font-family: "Roboto", sans-serif
+}
+
+.ide {
+  font-family: "Carter One", serif
+}
+
+.testing {
+  font-family: "Merriweather", serif
+}
+
 #courses {
   background-color: #ffde7a;
   font-family: "Marcellus", serif;
