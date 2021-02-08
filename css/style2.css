@@ -7,6 +7,80 @@ use float to make something locate itself on the right or left
 */
 
 body {
-  padding: 30px;
-  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  background-color: #333;
+  text-shadow: 1px 1px 2px #b16214;
+  color: #ff901f;
+}
+
+#main-title {
+  color:#b16214;
+  font-family: "Patua One", monospace;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.section {
+  border-radius: 25px;
+  padding: 20px;
+  border: 5px solid;
+  margin: 10px;
+  max-width: 48em;
+  border-color: #f222ff;
+  box-shadow: 2px 2px 4px 1px #1bb6dd;
+}
+
+#style-selector {
+  position: fixed;
+  background-color: #7a0019;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 46px;
+  padding-top: 10px;
+}
+
+#style-selector ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#style-selector li {
+  float: left; /*explore what happens if this is 'right' instead*/
+}
+
+#style-selector li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px; /*this adds some spacing around the items in our "nav bar" */
+  text-decoration: none;
+}
+
+/* Change the link background color to #000 (black) on hover */
+#style-selector li a:hover {
+  background-color: #000;
+}
+
+a:link {
+  color: #43f1ff;
+}
+
+.local a:visited {
+  color: #43f1ff;
+}
+
+.cloud a:link {
+  color: #ffd319;
+}
+
+a:visited {
+  color: #ffd319;
 }
